@@ -112,6 +112,7 @@ public:
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.push_back(CDNSSeedData("alltheco.in", "zeroseed1.alltheco.in", false));
+        vSeeds.push_back(CDNSSeedData("2.alltheco.in", "zeroseed2.alltheco.in", false));
         vSeeds.push_back(CDNSSeedData("zero-zed.com", "seed1.zero-zed.com", false));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,28);
