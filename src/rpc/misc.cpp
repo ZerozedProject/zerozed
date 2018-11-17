@@ -13,6 +13,7 @@
 #include "timedata.h"
 #include "util.h"
 #include "utilstrencodings.h"
+#include "checkpointsync.h"
 #ifdef ENABLE_WALLET
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
@@ -447,6 +448,96 @@ UniValue setmocktime(const UniValue& params, bool fHelp)
     return NullUniValue;
 }
 
+// RPC commands related to sync checkpoints
+// get information of sync-checkpoint (first introduced in ppcoin)
+UniValue getcheckpoint(const UniValue& params, bool fHelp)
+{
+    if (fHelp || params.size() != 0)
+        throw runtime_error(
+            "getcheckpoint\n"
+            "Show info of synchronized checkpoint.\n");
+
+    UniValue result(UniValue::VOBJ);
+    CBlockIndex* pindexCheckpoint;
+
+    result.push_back(Pair("synccheckpoint", hashSyncCheckpoint.ToString().c_str()));
+    if (mapBlockIndex.count(hashSyncCheckpoint))
+    {
+        pindexCheckpoint = mapBlockIndex[hashSyncCheckpoint];
+        result.push_back(Pair("height", pindexCheckpoint->nHeight));
+        result.push_back(Pair("timestamp", (boost::int64_t) pindexCheckpoint->GetBlockTime()));
+    }
+    if (mapArgs.count("-checkpointkey"))
+        result.push_back(Pair("checkpointmaster", true));
+
+    return result;
+}
+
+UniValue sendcheckpoint(const UniValue& params, bool fHelp)
+{
+    if (fHelp || params.size() != 1)
+        throw runtime_error(
+            "sendcheckpoint <blockhash>\n"
+            "Send a synchronized checkpoint.\n");
+
+    if (!mapArgs.count("-checkpointkey") || CSyncCheckpoint::strMasterPrivKey.empty())
+        throw runtime_error("Not a checkpointmaster node, first set checkpointkey in configuration and restart client. ");
+
+    string strHash = params[0].get_str();
+    uint256 hash = uint256S(strHash);
+
+    if (!SendSyncCheckpoint(hash))
+        throw runtime_error("Failed to send checkpoint, check log. ");
+
+    UniValue result(UniValue::VOBJ);
+    CBlockIndex* pindexCheckpoint;
+
+    result.push_back(Pair("synccheckpoint", hashSyncCheckpoint.ToString().c_str()));
+    if (mapBlockIndex.count(hashSyncCheckpoint))
+    {
+        pindexCheckpoint = mapBlockIndex[hashSyncCheckpoint];
+        result.push_back(Pair("height", pindexCheckpoint->nHeight));
+        result.push_back(Pair("timestamp", (boost::int64_t) pindexCheckpoint->GetBlockTime()));
+    }
+    if (mapArgs.count("-checkpointkey"))
+        result.push_back(Pair("checkpointmaster", true));
+
+    return result;
+}
+
+UniValue makekeypair(const UniValue& params, bool fHelp)
+{
+    if (fHelp || params.size() > 1)
+        throw runtime_error(
+            "makekeypair [prefix]\n"
+            "Make a public/private key pair.\n"
+            "[prefix] is optional preferred prefix for the public key.\n");
+
+    string strPrefix = "";
+    if (params.size() > 0)
+        strPrefix = params[0].get_str();
+
+    CKey key;
+    CPubKey pubkey;
+    int nCount = 0;
+    do
+    {
+        key.MakeNewKey(false);
+        pubkey = key.GetPubKey();
+        nCount++;
+    } while (nCount < 10000 && strPrefix != HexStr(pubkey.begin(), pubkey.end()).substr(0, strPrefix.size()));
+
+    if (strPrefix != HexStr(pubkey.begin(), pubkey.end()).substr(0, strPrefix.size()))
+        return NullUniValue;
+
+    UniValue result(UniValue::VOBJ);
+    result.push_back(Pair("PublicKey", HexStr(pubkey.begin(), pubkey.end())));
+    result.push_back(Pair("PrivateKey", CBitcoinSecret(key).ToString()));
+
+    return result;
+}
+
+
 static const CRPCCommand commands[] =
 { //  category              name                      actor (function)         okSafeMode
   //  --------------------- ------------------------  -----------------------  ----------
@@ -455,6 +546,9 @@ static const CRPCCommand commands[] =
     { "util",               "createmultisig",         &createmultisig,         true  },
     { "util",               "verifymessage",          &verifymessage,          true  },
     { "util",               "signmessagewithprivkey", &signmessagewithprivkey, true  },
+    { "util",               "getcheckpoint",          &getcheckpoint,          true  },
+    { "util",               "sendcheckpoint",         &sendcheckpoint,         true  },
+    { "util",               "makekeypair",            &makekeypair,            true  },
 
     /* Not shown in help */
     { "hidden",             "setmocktime",            &setmocktime,            true  },
