@@ -21,11 +21,8 @@ Anncouncement: https://bitcointalk.org/index.php?topic=4096286
 Discord: https://discord.gg/8GcFtUX  
 Telegram: https://t.me/zerozed_x0z  
 IRC: #zerozed https://webchat.freenode.net/  
-Pool: https://x0z.magnificentpool.com/  
-Pool: (DOWN) http://pool.fatpanda.club  
-Pool: https://umine.org/  
-Explorer: http://18.217.129.225:3001/  
-Explorer: https://umine.org/explorer/x0z  
+Pool: https://x0z.magnificentpool.com/   
+Explorer: http://18.217.129.225:3001/
 
 addnode 104.248.147.25 add
 
