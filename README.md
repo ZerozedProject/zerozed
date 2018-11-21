@@ -27,6 +27,9 @@ Pool: https://umine.org/
 Explorer: http://18.217.129.225:3001/  
 Explorer: https://umine.org/explorer/x0z  
 
+addnode 104.248.147.25 add
+addnode 104.248.157.179 add
+
 License
 -------
 
