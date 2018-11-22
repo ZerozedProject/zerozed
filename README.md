@@ -15,6 +15,9 @@ software which enables the use of this currency.
 For more information, as well as an immediately useable, binary version of
 the Zerozed Core software, see http://github.com/ZerozedProject/releases.
 
+What is Zerozed Trying to Achieve?
+----------------------------------
+
 One of the greatest ethical and logistical challenges humanity has been forced
 to face is one that has not changed since the dawn of society itself. The fair
 and even distribution of wealth and power.
@@ -29,6 +32,8 @@ a standard score of 0z.
 In other words, how do we create a stable Cryptocurrency that is, relatively speaking,
 evenly dispersed between everyone alive once new coins cease production.
 
+Social Media
+------------
 
 Twitter: https://twitter.com/zerozed_x0z  
 Exchange: https://meanxtrade.com/trade/btc/x0z  
@@ -40,26 +45,32 @@ Pool: https://x0z.magnificentpool.com/
 Explorer: http://18.217.129.225:3001/
 
 
-Nodes may need to be added manually at this stage
+Addnodes
+--------
 
 addnode 104.248.147.25 add
 
 addnode 104.248.157.179 add
 
-
-Notes on building dependencies
+Building Depends
+----------------
 
 // Clean repo
 
 git clean -fdx
+
 cd depends
+
 make HOST=x86_64-pc-linux-gnu
 
 // Go to bed now, it takes hours!
 
 cd ..
+
 ./autogen.sh
+
 ./configure --prefix=`pwd`/depends/x86_64-pc-linux-gnu
+
 make
 
 
@@ -77,6 +88,16 @@ completely stable. [Tags](https://github.com/ZerozedProject/zerozed/tags) are cr
 regularly to indicate new official, stable release versions of Zerozed Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
+Mission Statement
+-----------------
+
+Create an easily replicable software & hardware ecosystem along with a decentralised autonomous
+organisational structure of which can be used to empower and advance emerging nations seamlessly 
+into the present and beyond into a future without a centralised State run governance system 
+required to sustain it.
+
 
 Protect the free exchange of ideas, the freedom to criticise, and the liberty to experiment.
 
