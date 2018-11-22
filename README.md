@@ -50,15 +50,16 @@ addnode 104.248.157.179 add
 Notes on building dependencies
 
 // Clean repo
+
 git clean -fdx
 cd depends
 make HOST=x86_64-pc-linux-gnu
 
 // Go to bed now, it takes hours!
+
 cd ..
 ./autogen.sh
 ./configure --prefix=`pwd`/depends/x86_64-pc-linux-gnu
-
 make
 
 
