@@ -39,15 +39,15 @@ IRC: #zerozed https://webchat.freenode.net/
 Pool: https://x0z.magnificentpool.com/   
 Explorer: http://18.217.129.225:3001/
 
-/////////////////////////////////
-// Nodes may need to be added manually at this stage
+
+Nodes may need to be added manually at this stage
 
 addnode 104.248.147.25 add
 
 addnode 104.248.157.179 add
 
-/////////////////////////////////
-// Notes on building dependencies
+
+Notes on building dependencies
 
 // Clean repo
 git clean -fdx
@@ -60,7 +60,7 @@ cd ..
 ./configure --prefix=`pwd`/depends/x86_64-pc-linux-gnu
 
 make
-/////////////////////////////////
+
 
 License
 -------
