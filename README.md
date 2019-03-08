@@ -42,7 +42,7 @@ Discord: https://discord.gg/8GcFtUX
 Telegram: https://t.me/zerozed_x0z  
 IRC: #zerozed https://webchat.freenode.net/  
 Pool: https://x0z.magnificentpool.com/   
-Explorer: http://18.217.129.225:3001/
+Explorer: https://chainz.cryptoid.info/x0z/
 
 
 Addnodes
@@ -51,6 +51,14 @@ Addnodes
 addnode 104.248.147.25 add
 
 addnode 104.248.157.179 add
+
+Secondary nodes
+---------------
+
+66.42.55.163:2601
+52.15.220.131:2601
+139.180.209.176:2601
+3.8.75.233:2601
 
 Building Depends
 ----------------
