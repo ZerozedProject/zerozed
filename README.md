@@ -36,7 +36,9 @@ Social Media & Resources
 ------------------------
 
 Twitter: https://twitter.com/zerozed_x0z  
-Exchange: https://meanxtrade.com/trade/btc/x0z  
+Primary Centralised Exchange: https://amsterdex.com/exchange?market=x0z
+Primary Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
+In-house Exchange: https://meanxtrade.com/trade/btc/x0z  
 Anncouncement: https://bitcointalk.org/index.php?topic=4096286  
 Discord: https://discord.gg/8GcFtUX  
 Telegram: https://t.me/zerozed_x0z  
