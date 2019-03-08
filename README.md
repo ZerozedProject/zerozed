@@ -32,8 +32,8 @@ a standard score of 0z.
 In other words, how do we create a stable Cryptocurrency that is, relatively speaking,
 evenly dispersed between everyone alive once new coins cease production.
 
-Social Media
-------------
+Social Media & Resources
+------------------------
 
 Twitter: https://twitter.com/zerozed_x0z  
 Exchange: https://meanxtrade.com/trade/btc/x0z  
@@ -56,8 +56,11 @@ Secondary nodes
 ---------------
 
 66.42.55.163:2601
+
 52.15.220.131:2601
+
 139.180.209.176:2601
+
 3.8.75.233:2601
 
 Building Depends
