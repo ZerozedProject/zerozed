@@ -52,7 +52,7 @@ Social Media
 ------------
 
 Twitter: https://twitter.com/zerozed_x0z  
-Anncouncement: https://bitcointalk.org/index.php?topic=4096286  
+Announcement: https://bitcointalk.org/index.php?topic=4096286  
 Discord: https://discord.gg/8GcFtUX  
 Telegram: https://t.me/zerozed_x0z  
 IRC: #zerozed https://webchat.freenode.net/  
