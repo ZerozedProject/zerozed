@@ -44,6 +44,10 @@ Primary Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
 
 In-house Exchange: https://meanxtrade.com/trade/btc/x0z  
 
+Coinpaprika - https://coinpaprika.com/coin/x0z-zerozed/
+
+Mining Calc - https://cointomine.today/calculator/coin/X0Z/
+
 Social Media
 ------------
 
@@ -52,7 +56,7 @@ Anncouncement: https://bitcointalk.org/index.php?topic=4096286
 Discord: https://discord.gg/8GcFtUX  
 Telegram: https://t.me/zerozed_x0z  
 IRC: #zerozed https://webchat.freenode.net/  
-
+Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
 
 Addnodes
 --------
