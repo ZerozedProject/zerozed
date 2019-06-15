@@ -18,45 +18,46 @@ the Zerozed Core software, see http://github.com/ZerozedProject/releases.
 What is Zerozed Trying to Achieve?
 ----------------------------------
 
-One of the greatest ethical and logistical challenges humanity has been forced
-to face is one that has not changed since the dawn of society itself. The fair
-and even distribution of wealth and power.
+One of the greatest ethical and logistical challenges humanity has been forced to face is one that has not changed since the dawn of society itself. The fair and even distribution of wealth and power.
 
-Using a Diffusion of Innovations based inflation model along with an industry
-tried-and-true mining algorithm, Zerozed incorporates cross-chain transactions,
-such as the Atomic Swap network on the Komodo (KMD) platform, in order to solve
-a long time debated issue surrounding not just volatility but also how to achieve
-successful diffusion of a currency whilst maintaining the normal distribution and
-a standard score of 0z.
+Using a Diffusion of Innovations based inflation model, along with an industry tried-and-true mining algorithm we seek to solve a long time debated issue surrounding not just volatility but also how to achieve successful diffusion of a currency, global adoption, whilst maintaining the normal distribution and a standard score of 0z.
 
-In other words, how do we create a stable Cryptocurrency that is, relatively speaking,
-evenly dispersed between everyone alive once new coins cease production.
+In other words, how do we create a stable Cryptocurrency that is, relatively speaking, evenly dispersed between everyone alive once new coins cease production.
+
+We believe by utilising the Diffusion of Innovations we can establish the Normal Distribution within a socioeconomic system. We have proposed an inflation algorithm for Cryptocurrencies yet to launch, as well as coins existing today, to set or retarget blockrewards and follow a more sustainable and diffusion-viable incentive model.
+
+In replacement to the standard halving-mechanism employed by Bitcoin and the greater majority of Cryptocurrencies to-date, we demonstrate the modeling of an inflation schedule guided by the theory, Diffusion of Innovations.
+
 
 Resources
----------
-Pool: https://x0z.magnificentpool.com/   
+-----------
 
-Explorer: https://chainz.cryptoid.info/x0z/   
+Explorer: https://chainz.cryptoid.info/x0z/
+Pool: https://x0z.magnificentpool.com/
+Pool: https://luckyaltcoin.com/
+Mining Calculator: https://cointomine.today/calculator/coin/X0Z
+Exchange: https://altmarkets.io/trading/x0zbtc
+Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
+In-House Exchange: https://meanxtrade.com/trade/btc/x0z
+Trello: https://trello.com/b/TGOym8Po/zerozed-roadmap
 
-Primary Centralised Exchange: https://amsterdex.com/exchange?market=x0z
-
-Primary Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
-
-In-house Exchange: https://meanxtrade.com/trade/btc/x0z  
-
-Coinpaprika - https://coinpaprika.com/coin/x0z-zerozed/
-
-Mining Calc - https://cointomine.today/calculator/coin/X0Z/
+CoinLib: https://coinlib.io/coin/X0Z/Zerozed
+CoinGecko: https://coingecko.com/en/coins/zerozed
+Coinpaprika: https://coinpaprika.com/coin/x0z-zerozed/
+Delta: https://delta.app/en/crypto/x0z/zerozed
+Blockfolio: https://blockfolio.com/#get-app
 
 Social Media
-------------
+-------------
 
-Twitter: https://twitter.com/zerozed_x0z  
-Announcement: https://bitcointalk.org/index.php?topic=4096286  
-Discord: https://discord.gg/8GcFtUX  
-Telegram: https://t.me/zerozed_x0z  
-IRC: #zerozed https://webchat.freenode.net/  
+Twitter: https://twitter.com/zerozed_x0z
+Discord: https://discord.gg/8GcFtUX
+Telegram: https://t.me/zerozed_x0z
+Facebook: https://www.facebook.com/zerozed.x0z/
+Reddit: https://www.reddit.com/r/zerozed_x0z
+IRC: #zerozed https://webchat.freenode.net/
 Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
+
 
 Addnodes
 --------
