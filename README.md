@@ -35,6 +35,8 @@ Resources
 Explorer: https://chainz.cryptoid.info/x0z/
 Pool: https://x0z.magnificentpool.com/
 Pool: https://luckyaltcoin.com/
+Pool: https://coins4u.cc/
+Pool: http://www.masters-pool.com/
 Mining Calculator: https://cointomine.today/calculator/coin/X0Z
 Exchange: https://altmarkets.io/trading/x0zbtc
 Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
