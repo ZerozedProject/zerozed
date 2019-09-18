@@ -35,31 +35,48 @@ Resources
 Explorer: https://chainz.cryptoid.info/x0z/
 
 Pool: https://x0z.magnificentpool.com/
+
 Pool: https://luckyaltcoin.com/
+
 Pool: https://coins4u.cc/
+
 Pool: http://www.masters-pool.com/
 
 Mining Calculator: https://cointomine.today/calculator/coin/X0Z
+
 Exchange: https://altmarkets.io/trading/x0zbtc
+
 Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
+
 In-House Exchange: https://meanxtrade.com/trade/btc/x0z
+
 Trello: https://trello.com/b/TGOym8Po/zerozed-roadmap
 
 CoinLib: https://coinlib.io/coin/X0Z/Zerozed
+
 CoinGecko: https://coingecko.com/en/coins/zerozed
+
 Coinpaprika: https://coinpaprika.com/coin/x0z-zerozed/
+
 Delta: https://delta.app/en/crypto/x0z/zerozed
+
 Blockfolio: https://blockfolio.com/#get-app
 
 Social Media
 -------------
 
 Twitter: https://twitter.com/zerozed_x0z
+
 Discord: https://discord.gg/8GcFtUX
+
 Telegram: https://t.me/zerozed_x0z
+
 Facebook: https://www.facebook.com/zerozed.x0z/
+
 Reddit: https://www.reddit.com/r/zerozed_x0z
+
 IRC: #zerozed https://webchat.freenode.net/
+
 Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
 
 
