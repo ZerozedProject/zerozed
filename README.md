@@ -44,6 +44,8 @@ Pool: http://www.masters-pool.com/
 
 Mining Calculator: https://cointomine.today/calculator/coin/X0Z
 
+Exchange: https://www.unnamed.exchange/Exchange?market=x0z_BTC
+
 Exchange: https://altmarkets.io/trading/x0zbtc
 
 Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
