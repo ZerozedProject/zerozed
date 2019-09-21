@@ -34,16 +34,6 @@ Resources
 
 Explorer: https://chainz.cryptoid.info/x0z/
 
-Pool: http://pool.poolen.io/
-
-Pool: https://x0z.magnificentpool.com/
-
-Pool: https://luckyaltcoin.com/
-
-Pool: https://coins4u.cc/
-
-Pool: http://www.masters-pool.com/
-
 Mining Calculator: https://cointomine.today/calculator/coin/X0Z
 
 Exchange: https://www.unnamed.exchange/Exchange?market=x0z_BTC
@@ -83,6 +73,20 @@ IRC: #zerozed https://webchat.freenode.net/
 
 Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
 
+Pools
+-----------
+
+http://blockminer.me/
+
+http://pool.poolen.io/
+
+https://x0z.magnificentpool.com/
+
+https://luckyaltcoin.com/
+
+https://coins4u.cc/
+
+http://www.masters-pool.com/
 
 Addnodes
 --------
