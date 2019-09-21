@@ -32,17 +32,11 @@ In replacement to the standard halving-mechanism employed by Bitcoin and the gre
 Resources
 -----------
 
+ANN: https://bitcointalk.org/index.php?topic=4096286
+
 Explorer: https://chainz.cryptoid.info/x0z/
 
 Mining Calculator: https://cointomine.today/calculator/coin/X0Z
-
-Exchange: https://www.unnamed.exchange/Exchange?market=x0z_BTC
-
-Exchange: https://altmarkets.io/trading/x0zbtc
-
-Decentralised Exchange: https://deex.exchange/market/ZEROZED_BTC
-
-In-House Exchange: https://meanxtrade.com/trade/btc/x0z
 
 Trello: https://trello.com/b/TGOym8Po/zerozed-roadmap
 
@@ -55,6 +49,17 @@ Coinpaprika: https://coinpaprika.com/coin/x0z-zerozed/
 Delta: https://delta.app/en/crypto/x0z/zerozed
 
 Blockfolio: https://blockfolio.com/#get-app
+
+Exchanges
+-----------
+
+https://www.unnamed.exchange/Exchange?market=x0z_BTC
+
+https://altmarkets.io/trading/x0zbtc
+
+https://deex.exchange/market/ZEROZED_BTC
+
+https://meanxtrade.com/trade/btc/x0z
 
 Social Media
 -------------
