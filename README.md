@@ -34,6 +34,8 @@ Resources
 
 Explorer: https://chainz.cryptoid.info/x0z/
 
+Pool: http://pool.poolen.io/
+
 Pool: https://x0z.magnificentpool.com/
 
 Pool: https://luckyaltcoin.com/
