@@ -42,6 +42,8 @@ Trello: https://trello.com/b/TGOym8Po/zerozed-roadmap
 
 CoinLib: https://coinlib.io/coin/X0Z/Zerozed
 
+CoinCodex: https://coincodex.com/crypto/zerozed/
+
 CoinGecko: https://coingecko.com/en/coins/zerozed
 
 Coinpaprika: https://coinpaprika.com/coin/x0z-zerozed/
