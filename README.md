@@ -55,6 +55,8 @@ Blockfolio: https://blockfolio.com/#get-app
 Exchanges
 -----------
 
+https://c-patex.com/markets/x0zbtc
+
 https://www.unnamed.exchange/Exchange?market=x0z_BTC
 
 https://altmarkets.io/trading/x0zbtc
