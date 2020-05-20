@@ -85,17 +85,25 @@ Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
 Pools
 -----------
 
-http://blockminer.me/
+http://www.masters-pool.com/
 
-http://pool.poolen.io/
-
-https://x0z.magnificentpool.com/
+http://86.100.49.209/
 
 https://luckyaltcoin.com/
 
-https://coins4u.cc/
+https://coinminingpool.org/
 
-http://www.masters-pool.com/
+https://pool.x0z.io/
+
+http://blockminer.me/
+
+https://saltpool.net/
+
+http://pool.poolen.io/
+
+https://minepool.online/
+
+https://smithpool.net/
 
 Addnodes
 --------
@@ -104,6 +112,7 @@ addnode 104.248.147.25 add
 
 addnode 104.248.157.179 add
 
+addnode 167.99.177.137 add
 
 Building Depends
 ----------------
