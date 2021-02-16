@@ -29,6 +29,16 @@ We believe by utilising the Diffusion of Innovations we can establish the Normal
 In replacement to the standard halving-mechanism employed by Bitcoin and the greater majority of Cryptocurrencies to-date, we demonstrate the modeling of an inflation schedule guided by the theory, Diffusion of Innovations.
 
 
+Addnodes
+--------
+
+addnode 104.248.147.25 add
+
+addnode 104.248.157.179 add
+
+addnode 167.99.177.137 add
+
+
 Resources
 -----------
 
@@ -105,14 +115,6 @@ https://minepool.online/
 
 https://smithpool.net/
 
-Addnodes
---------
-
-addnode 104.248.147.25 add
-
-addnode 104.248.157.179 add
-
-addnode 167.99.177.137 add
 
 Building Depends
 ----------------
