@@ -32,12 +32,11 @@ In replacement to the standard halving-mechanism employed by Bitcoin and the gre
 Addnodes
 --------
 
+```
 addnode 104.248.147.25 add
-
 addnode 104.248.157.179 add
-
 addnode 167.99.177.137 add
-
+```
 
 Resources
 -----------
@@ -95,47 +94,25 @@ Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
 Pools
 -----------
 
-http://www.masters-pool.com/
-
 http://86.100.49.209/
-
-https://luckyaltcoin.com/
-
-https://coinminingpool.org/
-
-https://pool.x0z.io/
-
-http://blockminer.me/
-
-https://saltpool.net/
-
-http://pool.poolen.io/
-
-https://minepool.online/
-
-https://smithpool.net/
 
 
 Building Depends
 ----------------
 
-// Clean repo
 
-git clean -fdx
-
+```shell
+git clean -fdx # Clean repo
 cd depends
-
 make HOST=x86_64-pc-linux-gnu
 
-// Go to bed now, it takes hours!
+# Go to bed now, it takes hours!
 
 cd ..
-
 ./autogen.sh
-
 ./configure --prefix=`pwd`/depends/x86_64-pc-linux-gnu
-
 make
+```
 
 
 License
