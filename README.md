@@ -94,7 +94,9 @@ Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
 Pools
 -----------
 
-http://86.100.49.209/
+http://cr2big.xyz/
+http://poolamerica.cryptoescudo.com/
+https://murkapool.it/
 
 
 Building Depends
