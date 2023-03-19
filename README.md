@@ -47,8 +47,6 @@ Explorer: https://chainz.cryptoid.info/x0z/
 
 Mining Calculator: https://cointomine.today/calculator/coin/X0Z
 
-Trello: https://trello.com/b/TGOym8Po/zerozed-roadmap
-
 CoinLib: https://coinlib.io/coin/X0Z/Zerozed
 
 CoinCodex: https://coincodex.com/crypto/zerozed/
@@ -59,20 +57,11 @@ Coinpaprika: https://coinpaprika.com/coin/x0z-zerozed/
 
 Delta: https://delta.app/en/crypto/x0z/zerozed
 
-Blockfolio: https://blockfolio.com/#get-app
-
 Exchanges
 -----------
 
-https://c-patex.com/markets/x0zbtc
-
 https://www.unnamed.exchange/Exchange?market=x0z_BTC
 
-https://altmarkets.io/trading/x0zbtc
-
-https://deex.exchange/market/ZEROZED_BTC
-
-https://meanxtrade.com/trade/btc/x0z
 
 Social Media
 -------------
@@ -94,10 +83,9 @@ Matrix - https://matrix.to/#/#zerozed_x0z:matrix.allmende.io
 Pools
 -----------
 
-http://cr2big.xyz/
-http://poolamerica.cryptoescudo.com/
-https://murkapool.it/
-
+http://86.100.49.209/
+https://poolx.rwinfo.club/
+http://144.126.151.159:8050/
 
 Building Depends
 ----------------
