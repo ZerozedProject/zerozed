@@ -84,7 +84,9 @@ Pools
 -----------
 
 http://86.100.49.209/
+
 https://poolx.rwinfo.club/
+
 http://144.126.151.159:8050/
 
 Building Depends
